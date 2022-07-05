@@ -37,7 +37,7 @@ To run it I needed to learn about:
  </tr>
  
  <tr>
-  <td>ft_isascii</td>
+  <td>ft_isascii href="https://github.com/leaozim/Libft/blob/main/srcs/ft_isascii.c"</td>
   <td>Checks if the character passed is ASCII.</td>
  </tr>
  
