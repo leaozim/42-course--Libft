@@ -16,5 +16,5 @@ To run it I needed to learn about:
 ### Mandatory part
 
 | Function |
-| --- | 
+| -------------------------------- | 
 | [**ft\_isalpha**](https://github.com/leaozim/Libft/blob/main/srcs/ft_isalpha.c) |
