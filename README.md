@@ -13,6 +13,16 @@ To run it I needed to learn about:
 * **Mandatory part:** In the mandatory part, a set of functions from the LIBC file were redone, having the same prototypes and behaviors as the original ones. In addition to them, a set of functions were developed that are not in LIBC, or that are part of it, but in a different way.
 * **Bonus part:** In the bonus functions were made to manipulate lists.
 
+## Make
+
+| Command | Usage |
+| --- | --- |
+| `make` | creates .o files for each function as well as the main library file, libft.a |
+| `make clean` | removes the .o files used to create the library |
+| `make fclean` | removes the .o & .a files used to create the library |
+| `make re` | removes all .o & .a files then remakes them |
+
+
 ## Mandatory part
 
 
@@ -37,7 +47,7 @@ To run it I needed to learn about:
  </tr>
  
  <tr>
-  <td>ft_isascii </td> <href="https://github.com/leaozim/Libft/blob/main/srcs/ft_isascii.c">
+  <td>ft_isascii </td>
   <td>Checks if the character passed is ASCII.</td>
  </tr>
  
