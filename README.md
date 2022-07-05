@@ -197,11 +197,13 @@ To run it I needed to learn about:
   <td>ft_substr</td>
   <td>Returns a substring of the string 's'. The substring starts at index 'start' and is of maximum length 'len'.</td>
  </tr>
- 
+  </table>
+  
   
   ### Bonus part
   
   
+  <table border="1" width="300"> 
  <tr>
   <td  align="center"colspan="4"> Chained lists manipulation</td>
  </tr>
@@ -212,41 +214,41 @@ To run it I needed to learn about:
  </tr>
  
   <tr>
-  <td>ft_lstadd_front</td>
+ <td>ft_lstadd_front</td>
   <td>Adds the element at the beginning of the list.</td>
  </tr>
  
   <tr>
-  <td>ft_lstclear</td>
+ <td>ft_lstclear</td>
   <td>Deletes and frees the given element and every successor of that element, using a given function and free.</td>
  </tr>
  
-  <tr>
+ <tr>
   <td>ft_lstdelone</td>
   <td>Takes as a parameter an element and frees the memory of the element’s content using a function given as a parameter and free the element.</td>
  </tr>
  
-  <tr>
+ <tr>
   <td>ft_lstiter</td>
   <td>Iterates the list and applies a function to the content of each element.</td>
  </tr>
  
-  <tr>
+ <tr>
   <td>ft_lstlast</td>
   <td>Returns the last element of the list.</td>
  </tr>
  
-  <tr>
+ <tr>
   <td>ft_lstmap</td>
   <td>Iterates the list and applies a function to the content of each element. Creates a new list resulting of the successive applications of the function. A 'del' function is used to delete the content of an element if needed.</td>
  </tr>
  
-  <tr>
+ <tr>
   <td>ft_lstnew</td>
   <td>Returns a new element.</td>
  </tr>
  
-  <tr>
+ <tr>
   <td>ft_lstsize</td>
   <td>Counts the number of elements in a list.</td>
  </tr>
