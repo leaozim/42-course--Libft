@@ -198,6 +198,10 @@ To run it I needed to learn about:
   <td>Returns a substring of the string 's'. The substring starts at index 'start' and is of maximum length 'len'.</td>
  </tr>
  
+  
+  ### Bonus part
+  
+  
  <tr>
   <td  align="center"colspan="4"> Chained lists manipulation</td>
  </tr>
