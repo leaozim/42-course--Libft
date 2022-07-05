@@ -18,6 +18,7 @@ To run it I needed to learn about:
 | Command | Usage |
 | --- | --- |
 | `make` | creates .o files for each function as well as the main library file, libft.a |
+| `make bonus` | creates .o files for bonus functions as well as the main library file, libft.a |
 | `make clean` | removes the .o files used to create the library |
 | `make fclean` | removes the .o & .a files used to create the library |
 | `make re` | removes all .o & .a files then remakes them |
