@@ -67,7 +67,7 @@ To run it I needed to learn about:
   <td>Converts uppercase letters to lowercase.</td>
  </tr>
  
-  <tr>
+ <tr>
   <td>ft_toupper</td>
   <td>Converts lowercase letters to uppercase.</td>
  </tr>
@@ -121,7 +121,7 @@ To run it I needed to learn about:
   <td>Copy up to length 1 character from NULL terminated string src to dst, ending in NULL the result.</td>
  </tr>
  
-  <tr>
+ <tr>
   <td>ft_strlen</td>
   <td>Counts how many characters there are while the parameter passed is not null.</td>
  </tr>
@@ -215,7 +215,7 @@ To run it I needed to learn about:
   
   
   
-  <table border="1" width="300"> 
+ <table border="1" width="300"> 
  <tr>
   <td  align="center"colspan="4"> Chained lists manipulation</td>
  </tr>
@@ -225,13 +225,13 @@ To run it I needed to learn about:
   <td>Adds the element at the end of the list.</td>
  </tr>
  
-  <tr>
- <td>ft_lstadd_front</td>
+ <tr>
+  <td>ft_lstadd_front</td>
   <td>Adds the element at the beginning of the list.</td>
  </tr>
  
-  <tr>
- <td>ft_lstclear</td>
+ <tr>
+  <td>ft_lstclear</td>
   <td>Deletes and frees the given element and every successor of that element, using a given function and free.</td>
  </tr>
  
