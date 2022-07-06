@@ -103,22 +103,22 @@ To run it I needed to learn about:
  
  <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_memset.c">ft_memset</a></td>
-  <td>Fills length bytes starting at dst with the value C.</td>
+  <td>Fills length bytes starting at src with the value C.</td>
  </tr>
  
  <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_strchr.c">ft_strchr</a></td>
-  <td>finds the first occurrence of C (converted to a char) in the string pointed to by S.</td>
+  <td>finds the first occurrence of C (converted to a char) in the string pointed to by str.</td>
  </tr>
  
   <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_strlcat.c">ft_strlcat</a></td>
-  <td>appends the NULL terminated string src to the end of dst.</td>
+  <td>appends the NUL-terminated string str to the end of dst.  It will append at most size - strlen(dst) - 1 bytes, NUL-terminating the result.</td>
  </tr>
  
  <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_strlcpy.c">ft_strlcpy</a></td>
-  <td>Copy up to length 1 character from NULL terminated string src to dst, ending in NULL the result.</td>
+  <td>Copy up to length 1 character from NULL terminated string str to dst, ending in NULL the result.</td>
  </tr>
  
  <tr>
@@ -133,7 +133,7 @@ To run it I needed to learn about:
  
  <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_strnstr.c">ft_strnstr</a></td>
-  <td>Finds the first occurrence of the null term string nated s2 in string s1, where no more than n characters are searched.</td>
+  <td>Locates the first occurrence of the null-terminated string little in the string big, where not more than len characters are searched.</td>
  </tr>
  
  <tr>
