@@ -93,7 +93,7 @@ To run it I needed to learn about:
  
  <tr>
    <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_memcpy.c">ft_memcpy</a></td>
-  <td>assign each character of src pointer to dest pointer as counter is less than the size, and returns the dest pointer.</td>
+  <td>Assign each character of src pointer to dest pointer as counter is less than the size, and returns the dest pointer.</td>
  </tr>
  
   <tr>
@@ -108,12 +108,12 @@ To run it I needed to learn about:
  
  <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_strchr.c">ft_strchr</a></td>
-  <td>finds the first occurrence of C (converted to a char) in the string pointed to by str.</td>
+  <td>Finds the first occurrence of C (converted to a char) in the string pointed to by str.</td>
  </tr>
  
   <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_strlcat.c">ft_strlcat</a></td>
-  <td>appends the NUL-terminated string str to the end of dst.  It will append at most size - strlen(dst) - 1 bytes, NUL-terminating the result.</td>
+  <td>Appends the NUL-terminated string str to the end of dst.  It will append at most size - strlen(dst) - 1 bytes, NUL-terminating the result.</td>
  </tr>
  
  <tr>
@@ -138,7 +138,7 @@ To run it I needed to learn about:
  
  <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_strrchr.c">ft_strrchr</a></td>
-  <td>look for the last occurrence of the character c (an unsigned character) in the string pointed to by the str argument</td>
+  <td>Look for the last occurrence of the character c (an unsigned character) in the string pointed to by the str argument</td>
  </tr>
  
  <tr>
@@ -147,12 +147,12 @@ To run it I needed to learn about:
  
  <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_atoi.c">ft_atoi</a></td>
-  <td>converts the initial portion of the string pointed to by nptr to int. Atoi() does not detect errors</td>
+  <td>Converts the initial portion of the string pointed to by nptr to int. Atoi() does not detect errors</td>
  </tr>
  
  <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_calloc.c">ft_calloc</a></td>
-  <td>allocates memory for an array of nmemb elements of size each and returns a pointer to the allocated memory.</td>
+  <td>Allocates memory for an array of nmemb elements of size each and returns a pointer to the allocated memory.</td>
  </tr>
  
  <tr>
@@ -191,7 +191,7 @@ To run it I needed to learn about:
  
  <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_strjoin.c">ft_strjoin</a></td>
-  <td>returns a newstring, which is the result of concatenating 's1' and 's2'.</td>
+  <td>Allocates with malloc and returns a new string, which is the result of the concatenation of 's1' and 's2'..</td>
  </tr>
  
  <tr>
@@ -201,7 +201,7 @@ To run it I needed to learn about:
  
  <tr>
   <td><a href="https://github.com/leaozim/Libft/blob/main/srcs/ft_strtrim.c">ft_strtrim</a></td>
-  <td>returns a copy of 's1' with the characters specified in 'set' removed from beginning and end of string.</td>
+  <td>Returns a copy of 's1' with the characters specified in 'set' removed from beginning and end of string.</td>
  </tr>
  
  <tr>
