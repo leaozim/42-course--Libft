@@ -6,7 +6,7 @@
 /*   By: lade-lim <lade-lim@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/25 21:28:00 by lade-lim          #+#    #+#             */
-/*   Updated: 2022/06/13 22:53:04 by lade-lim         ###   ########.fr       */
+/*   Updated: 2023/02/10 19:02:11 by lade-lim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	*ft_memset(void *src, int c, size_t n)
 {
 	unsigned char	*aux;
-	size_t		i;
+	size_t			i;
 
 	i = 0;
 	aux = (unsigned char *) src;
